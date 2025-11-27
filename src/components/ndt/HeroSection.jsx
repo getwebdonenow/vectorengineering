@@ -57,13 +57,13 @@ export default function HeroSection() {
                 Request a Quote
                 <ChevronRight className="ml-2 w-5 h-5" />
               </Button>
-              {/* <Button
+              <Button
                 variant="outline"
                 onClick={scrollToServices}
-                className="border-white/20 text-[#0d99d9] hover:bg-white/10 px-8 py-6 text-lg rounded-xl backdrop-blur-sm"
+                className="border-white/20 text-white hover:bg-white/10 px-8 py-6 text-lg rounded-xl backdrop-blur-sm"
               >
                 Our Services
-              </Button> */}
+              </Button>
             </div>
 
             {/* Stats */}
