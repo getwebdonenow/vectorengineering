@@ -72,13 +72,13 @@ export default function Navbar() {
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center gap-4">
               <a
-                href="tel:+97140000000"
+                href="tel:+971 54 494 2878"
                 className={`flex items-center gap-2 font-medium transition-colors ${
                   isScrolled ? "text-gray-700" : "text-white/90"
                 }`}
               >
                 <Phone className="w-4 h-4" />
-                <span>+971 4 XXX XXXX</span>
+                <span>+971 54 494 2878 </span>
               </a>
               <Button
                 onClick={() => scrollToSection("#contact")}
@@ -153,7 +153,7 @@ export default function Navbar() {
                 className="flex items-center gap-3 px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-lg"
               >
                 <Phone className="w-5 h-5 text-[#0EA5E9]" />
-                <span>+971 4 XXX XXXX</span>
+                <span>+971 54 494 2878</span>
               </a>
               <Button
                 onClick={() => scrollToSection("#contact")}

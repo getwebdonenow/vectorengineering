@@ -29,17 +29,17 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    lines: ["+971 4 XXX XXXX", "+971 50 XXX XXXX"],
+    lines: ["+971 54 494 2878"],
   },
   {
     icon: Mail,
     title: "Email Us",
-    lines: ["info@ndtcompany.ae", "sales@ndtcompany.ae"],
+    lines: ["info@vectorengineeringuae.com", "sales@vectorengineeringuae.com"],
   },
   {
     icon: Clock,
     title: "Working Hours",
-    lines: ["Sun - Thu: 8:00 AM - 6:00 PM", "Emergency: 24/7"],
+    lines: ["Mon - Sat: 8:00 AM - 6:00 PM", "Emergency: 24/7"],
   },
 ];
 

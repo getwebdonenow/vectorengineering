@@ -108,18 +108,21 @@ export default function Footer() {
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-[#0EA5E9] mt-0.5" />
                   <div className="text-sm text-white/70">
-                    Al Quoz Industrial Area 3<br />
-                    Dubai, United Arab Emirates
+                    Musaffah
+                    <br />
+                    Abu dhabi, United Arab Emirates
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-[#0EA5E9]" />
-                  <span className="text-sm text-white/70">+971 4 XXX XXXX</span>
+                  <span className="text-sm text-white/70">
+                    +971 54 494 2878
+                  </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-[#0EA5E9]" />
                   <span className="text-sm text-white/70">
-                    info@ndtcompany.ae
+                    info@vectorengineeringuae.com
                   </span>
                 </div>
               </div>
