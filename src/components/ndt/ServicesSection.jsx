@@ -12,55 +12,67 @@ import {
 const services = [
   {
     icon: Waves,
-    title: "Ultrasonic Testing",
-    shortCode: "UT",
+    title: "PMI Testing",
+    shortCode: "PMI",
     description:
-      "High-frequency sound waves to detect internal flaws, measure thickness, and characterize materials with precision.",
-    features: ["Weld Inspection", "Thickness Gauging", "Flaw Detection"],
+      "Positive Material Identification to verify alloy composition and ensure compliance with required material specifications.",
+    features: ["Alloy Verification", "On-site Analysis", "Material Compliance"],
   },
   {
     icon: Radio,
-    title: "Radiographic Testing",
-    shortCode: "RT",
+    title: "Welding & Coating Inspection",
+    shortCode: "WCI",
     description:
-      "X-ray and gamma-ray inspection for comprehensive internal structure analysis of welds and castings.",
+      "Comprehensive inspection of welding and coating applications to ensure structural integrity and long-term protection.",
     features: [
-      "Digital Radiography",
-      "Film Interpretation",
-      "Pipeline Inspection",
+      "Weld Quality Assessment",
+      "Coating Thickness Testing",
+      "Surface Preparation Checks",
     ],
   },
   {
     icon: Magnet,
-    title: "Magnetic Particle Testing",
-    shortCode: "MT",
+    title: "Safety Audits & Inspections",
+    shortCode: "SAI",
     description:
-      "Surface and near-surface discontinuity detection in ferromagnetic materials using magnetic fields.",
-    features: ["Surface Cracks", "Weld Defects", "Forging Inspection"],
+      "Systematic evaluation of workplace safety practices to identify hazards, ensure compliance, and enhance safety culture.",
+    features: [
+      "Workplace Risk Assessment",
+      "Compliance Verification",
+      "Corrective Action Planning",
+    ],
   },
   {
     icon: Eye,
-    title: "Visual Inspection",
-    shortCode: "VT",
+    title: "E&I Inspection & Pre-Commissioning / Commissioning",
+    shortCode: "EI",
     description:
-      "Comprehensive visual examination using advanced optics and remote visual inspection equipment.",
-    features: ["RVI Equipment", "Weld Profiles", "Corrosion Mapping"],
+      "Inspection and validation of electrical and instrumentation systems during installation, pre-commissioning, and commissioning stages.",
+    features: ["Loop Checks", "Functional Testing", "System Verification"],
   },
   {
     icon: Scan,
-    title: "Penetrant Testing",
-    shortCode: "PT",
+    title: "FAT & Maintenance",
+    shortCode: "FAT",
     description:
-      "Surface-breaking defect detection in non-porous materials using fluorescent or visible dye penetrants.",
-    features: ["Fluorescent PT", "Visible Dye PT", "Aerospace Standards"],
+      "Factory Acceptance Testing and maintenance services to ensure equipment performance, reliability, and operational readiness.",
+    features: [
+      "Factory Acceptance Testing",
+      "Predictive Maintenance",
+      "Performance Validation",
+    ],
   },
   {
     icon: Gauge,
-    title: "Hardness Testing",
-    shortCode: "HT",
+    title: "Site Surveys & MEP",
+    shortCode: "MEP",
     description:
-      "Material hardness measurement to verify heat treatment and ensure material specifications compliance.",
-    features: ["Portable Testing", "Lab Analysis", "Certification"],
+      "Detailed site surveys and MEP inspection services to support design accuracy, installation quality, and project execution.",
+    features: [
+      "Mechanical Systems Review",
+      "Electrical Compliance",
+      "Plumbing & HVAC Assessment",
+    ],
   },
 ];
 

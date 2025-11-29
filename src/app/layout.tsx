@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import FloatingWhatsApp from "@/components/FloatingWhatsapp/FloatingWhatsapp";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -28,6 +28,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <FloatingWhatsApp
+          number="971544942878"
+          message="Hello! I would like to inquire about your services."
+        />
         {children}
       </body>
     </html>

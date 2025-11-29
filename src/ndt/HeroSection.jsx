@@ -29,24 +29,23 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full">
+            {/* <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full">
               <span className="w-2 h-2 bg-[#0EA5E9] rounded-full animate-pulse" />
               <span className="text-sm text-white/80 tracking-wide">
                 ISO 9001:2015 Certified
               </span>
-            </div>
+            </div> */}
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              Precision Testing for
+              Quality Testing You Can Depend On
               <span className="block mt-2 bg-gradient-to-r from-[#0EA5E9] to-[#D4A853] bg-clip-text text-transparent">
-                Critical Infrastructure
+                Across the UAE
               </span>
             </h1>
 
             <p className="text-lg text-white/70 leading-relaxed max-w-xl">
-              Leading Non-Destructive Testing solutions across the UAE. We
-              ensure the integrity and safety of your assets with advanced
-              inspection technologies and expert analysis.
+              Offering comprehensive inspection solutions across the UAE,
+              helping businesses maintain safer and more reliable operations.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -103,7 +102,7 @@ export default function HeroSection() {
                 </div>
               </div>
 
-              <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 hover:-translate-y-1">
+              {/* <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 hover:-translate-y-1">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-[#D4A853]/20 rounded-xl">
                     <Award className="w-6 h-6 text-[#D4A853]" />
@@ -117,7 +116,7 @@ export default function HeroSection() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 ml-8 hover:bg-white/10 transition-all duration-300 hover:-translate-y-1">
                 <div className="flex items-start gap-4">

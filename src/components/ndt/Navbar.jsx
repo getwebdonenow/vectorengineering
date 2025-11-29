@@ -50,7 +50,7 @@ export default function Navbar() {
                   isScrolled ? "text-[#0A1628]" : "text-white"
                 }`}
               >
-                NDT<span className="text-[#0EA5E9]">Pro</span>
+                Vector<span className="text-[#0EA5E9]">Engineering</span>
               </div>
             </div>
 
@@ -125,7 +125,7 @@ export default function Navbar() {
           <div className="p-6">
             <div className="flex items-center justify-between mb-8">
               <div className="text-2xl font-bold text-[#0A1628]">
-                NDT<span className="text-[#0EA5E9]">Pro</span>
+                Vector<span className="text-[#0EA5E9]">Engineering</span>
               </div>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
@@ -149,7 +149,7 @@ export default function Navbar() {
 
             <div className="mt-8 pt-8 border-t border-gray-200">
               <a
-                href="tel:+97140000000"
+                href="tel:+971544942878"
                 className="flex items-center gap-3 px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-lg"
               >
                 <Phone className="w-5 h-5 text-[#0EA5E9]" />

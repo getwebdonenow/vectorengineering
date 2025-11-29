@@ -45,7 +45,7 @@ export default function Footer() {
             <div className="lg:col-span-1">
               <div className="mb-6">
                 <h3 className="text-2xl font-bold">
-                  NDT<span className="text-[#0EA5E9]">Pro</span>
+                  Vector<span className="text-[#0EA5E9]">Engineering</span>
                 </h3>
                 <p className="text-sm text-white/60 mt-1">
                   Excellence in Testing
@@ -56,7 +56,7 @@ export default function Footer() {
                 UAE, ensuring the integrity and safety of critical
                 infrastructure across industries.
               </p>
-              <div className="flex gap-4">
+              {/* <div className="flex gap-4">
                 {certifications.slice(0, 3).map((cert, index) => (
                   <div
                     key={index}
@@ -65,7 +65,7 @@ export default function Footer() {
                     {cert}
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Quick Links */}

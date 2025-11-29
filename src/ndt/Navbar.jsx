@@ -50,7 +50,7 @@ export default function Navbar() {
                   isScrolled ? "text-[#0A1628]" : "text-white"
                 }`}
               >
-                NDT<span className="text-[#0EA5E9]">Pro</span>
+                Vector<span className="text-[#0EA5E9]">Engineering</span>
               </div>
             </div>
 
@@ -125,7 +125,7 @@ export default function Navbar() {
           <div className="p-6">
             <div className="flex items-center justify-between mb-8">
               <div className="text-2xl font-bold text-[#0A1628]">
-                NDT<span className="text-[#0EA5E9]">Pro</span>
+                Vector<span className="text-[#0EA5E9]">Engineering</span>
               </div>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}

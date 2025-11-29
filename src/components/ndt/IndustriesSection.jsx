@@ -26,14 +26,14 @@ const industries = [
     image:
       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80",
   },
-  {
-    icon: Plane,
-    name: "Aerospace",
-    description:
-      "Aircraft component inspection, engine parts testing, and maintenance support",
-    image:
-      "https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=600&q=80",
-  },
+  // {
+  //   icon: Plane,
+  //   name: "Aerospace",
+  //   description:
+  //     "Aircraft component inspection, engine parts testing, and maintenance support",
+  //   image:
+  //     "https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=600&q=80",
+  // },
   {
     icon: Ship,
     name: "Marine",

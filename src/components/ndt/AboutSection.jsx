@@ -65,7 +65,7 @@ export default function AboutSection() {
             </p>
 
             {/* Certifications */}
-            <div className="pt-6">
+            {/* <div className="pt-6">
               <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
                 Certifications & Approvals
               </h4>
@@ -82,7 +82,7 @@ export default function AboutSection() {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Content - Image & Stats */}
