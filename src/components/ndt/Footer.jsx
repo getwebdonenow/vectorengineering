@@ -9,12 +9,12 @@ const quickLinks = [
 ];
 
 const services = [
-  "Ultrasonic Testing",
-  "Radiographic Testing",
-  "Magnetic Particle Testing",
-  "Penetrant Testing",
-  "Visual Inspection",
-  "Hardness Testing",
+  "PMI Testing",
+  "Welding & Coating Inspection",
+  "Safety Audits & Inspections",
+  "E&I Inspection & Pre-Commissioning / Commissioning",
+  "FAT & Maintenance",
+  "Site Surveys & MEP",
 ];
 
 const certifications = [
@@ -154,15 +154,21 @@ export default function Footer() {
                 reserved.
               </p>
               <div className="flex items-center gap-6 text-sm text-white/50">
-                <a href="#" className="hover:text-white transition-colors">
+                <a
+                  href="/privacy-policy"
+                  className="hover:text-white transition-colors"
+                >
                   Privacy Policy
                 </a>
-                <a href="#" className="hover:text-white transition-colors">
+                <a
+                  href="/terms-and-conditions"
+                  className="hover:text-white transition-colors"
+                >
                   Terms of Service
                 </a>
-                <a href="#" className="hover:text-white transition-colors">
+                {/* <a href="#" className="hover:text-white transition-colors">
                   Sitemap
-                </a>
+                </a> */}
               </div>
               <button
                 onClick={scrollToTop}
