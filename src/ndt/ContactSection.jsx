@@ -189,7 +189,7 @@ export default function ContactSection() {
                       </label>
                       <Input
                         required
-                        placeholder="John Smith"
+                        placeholder=""
                         value={formData.name}
                         onChange={(e) =>
                           setFormData({ ...formData, name: e.target.value })
@@ -204,7 +204,7 @@ export default function ContactSection() {
                       <Input
                         required
                         type="email"
-                        placeholder="john@company.com"
+                        placeholder=""
                         value={formData.email}
                         onChange={(e) =>
                           setFormData({ ...formData, email: e.target.value })
@@ -230,7 +230,7 @@ export default function ContactSection() {
                         Company Name
                       </label>
                       <Input
-                        placeholder="Your Company"
+                        placeholder=""
                         value={formData.company}
                         onChange={(e) =>
                           setFormData({ ...formData, company: e.target.value })
