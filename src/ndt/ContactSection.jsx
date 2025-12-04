@@ -44,13 +44,12 @@ const contactInfo = [
 ];
 
 const services = [
-  "Ultrasonic Testing (UT)",
-  "Radiographic Testing (RT)",
-  "Magnetic Particle Testing (MT)",
-  "Penetrant Testing (PT)",
-  "Visual Inspection (VT)",
-  "Hardness Testing",
-  "Other Services",
+  "PMI Testing",
+  "Welding & Coating Inspection",
+  "Safety Audits & Inspections",
+  "E&I Inspection & Pre-Commissioning / Commissioning",
+  "FAT & Maintenance",
+  "Site Surveys & MEP",
 ];
 
 export default function ContactSection() {
